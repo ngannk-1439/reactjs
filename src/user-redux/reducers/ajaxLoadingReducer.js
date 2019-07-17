@@ -1,4 +1,4 @@
-import * as types from '../contains/index';
+import * as types from '../contains';
 import initialState from '../store/initialState';
 
 export default function ajaxLoadingReducer(state = initialState.ajaxLoading, action) {

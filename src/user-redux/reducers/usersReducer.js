@@ -1,4 +1,4 @@
-import * as types from '../contains/index';
+import * as types from '../contains';
 
 const initialState = {
   users: [],

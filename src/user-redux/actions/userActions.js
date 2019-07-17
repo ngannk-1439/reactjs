@@ -1,5 +1,5 @@
 import axios from 'axios';
-import {ADD_USER, EDIT_USER, DELETE_USER, SET_USERS, AJAX_LOADING} from '../contains/index';
+import {ADD_USER, EDIT_USER, DELETE_USER, SET_USERS, AJAX_LOADING} from '../contains';
 
 export function addUser(user) {
   return { type: ADD_USER, user};
