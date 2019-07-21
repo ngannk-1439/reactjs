@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './styles/scss/App.scss';
 import { Route, Link, BrowserRouter, Redirect, HashRouter, Switch } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -39,7 +39,7 @@ var routing = (
                 <Link to="/user-redux">19/06/21 - Users Management</Link>
               </li>
               <li>
-                <Link to="/user-authentication">9/07/21 - Users Authentication</Link>
+                <Link to="/user-authentication/login">9/07/21 - Users Authentication</Link>
               </li>
               <li>
                 <Link to="/refs-form">Practice Day 1 - Refs Form</Link>
