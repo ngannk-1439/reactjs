@@ -35,7 +35,7 @@
     "fs-extra": "7.0.1",
     "gh-pages": "^2.0.1",
     "html-webpack-plugin": "4.0.0-alpha.2",
-    "i": "^0.3.6",
+    "i": "^0.3.7",
     "identity-obj-proxy": "3.0.0",
     "javascript-time-ago": "^2.0.1",
     "jest": "23.6.0",
